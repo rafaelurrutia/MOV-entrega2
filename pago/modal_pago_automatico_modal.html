@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../framework/css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/bootstrap.offcanvas.min.css" />
+    <link rel="stylesheet" href="../addon/fa/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../addon/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="../addon/menu-panel/css/ma5-mobile-menu.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <title>Movistar Nueva Sucursal Virtual</title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    
+    <!-- MODAL PAGO AUTOMATICO -->
+    <div id="modal_pago_automatico" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog pago_automatico">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="caja-dialogo inline-block width-100 bg-white">
+                        <div class="cont-icon-advertencia inline-block">
+                            <img class="icon-advertencia hidden-desktop" src="img/img-alerta.png">
+                        </div>
+
+                        <div class="cont-modal-pago-automatico">
+                            <h4>Esta cuenta tiene un Pago Automático Activado</h4>
+
+                            <div class="cont-border-bottom">
+                                <p>
+                                    <strong>Si pagas por este medio es posible que la cuenta se pague 2 veces.     </strong>
+
+                                </p>
+                                <p class="texto">En el caso de que esto ocurra, el monto extra quedará abonado y descontado en tu siguiente cuenta o boleta.</p>
+
+
+                                <a href="" class="link-simple-arrow-right" data-dismiss="modal">No realizar pago</a>
+
+                                <div class="borde-abajo"></div>
+                                <a href="" class="btn-verde" data-dismiss="modal">Lo entiendo y deseo continuar con el pago</a>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../framework/js/bootstrap.min.js"></script>
+    <script src="../addon/jquery-validation/jquery.validate.js"></script>
+    <script src="../addon/jquery-validation/additional-methods.js"></script>
+    <script src="../addon/menu-panel/js/ma5-mobile-menu.js"></script>
+    <script src="../addon/flexslider/jquery.flexslider.js"></script>
+    <script src="../js/offcanvasmenu.js" type="text/javascript"></script>
+    <script src="../js/jquery.Rut.js" type="text/javascript"></script>
+    <script src="../js/moment.min.js" type="text/javascript"></script>
+    <script src="../js/locale/es.js" type="text/javascript"></script>
+    <script src="../framework/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/jquery.tablesorter.js"></script>
+    <script src="../js/validaciones.js" type="text/javascript"></script>
+    <script src="../js/scrollfix.js" type="text/javascript"></script>
+    <script src="../js/jquery.appear.js" type="text/javascript"></script>
+    <script src="../js/jquery.number.min.js" type="text/javascript"></script>
+    <script src="../js/scripts.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#modal_pago_automatico').modal('show');
+        });
+    </script>
+</body>
+
+</html>
